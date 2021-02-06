@@ -1,0 +1,4 @@
+﻿  Application.cpp
+D:\Personal Projects\Hazel\Hazel\Sandbox\src\Application.cpp(7,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+Application.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) void __cdecl Hazel::Print(void)" (__imp_?Print@Hazel@@YAXXZ) referenced in function main
+D:\Personal Projects\Hazel\Hazel\bin\Debug-x64\Sandbox\Sandbox.exe : fatal error LNK1120: 1 unresolved externals
