@@ -1,17 +1,19 @@
 #pragma once
 
+#include "Core.h"
+
 namespace Hazel 
 {
-	class __declspec(dllexport) Application
+	class HAZEL_API Application
 	{
 	public:
 		Application();
 		virtual ~Application();
 
-		void run()
-		{
-			while (true);
-		}
+		void Run();
 	};
+
+	// to be defined in a client
+	Application* CreateApplication();
 }
 
